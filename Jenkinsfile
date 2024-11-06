@@ -14,7 +14,7 @@ pipeline {
                 '''
             }
         }
-          stage('Test Command'){
+          stage('Test Command1'){
             steps{
                 scripts{
                     powershell '''C:\\test-script\\myscript.ps1'''
